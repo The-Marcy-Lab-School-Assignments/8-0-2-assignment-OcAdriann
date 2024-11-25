@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 require("dotenv").config();
-
+/** FEEDBACK: Great job!  */
 const app = express();
 const pathToDistFolder = path.join(__dirname, "../giphy-search/dist");
 const serverStatic = express.static(pathToDistFolder);
